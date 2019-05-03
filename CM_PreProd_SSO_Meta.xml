@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://adidascm--preprod.my.salesforce.com" validUntil="2029-05-03T02:23:15.148Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://adidascm--preprod.my.salesforce.com" validUntil="2029-05-03T02:33:55.210Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:KeyDescriptor use="signing">
          <ds:KeyInfo>
@@ -51,5 +51,6 @@ wc4akQ==</ds:X509Certificate>
       <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://preprod-cpreporting.cs108.force.com/CPReporting/login?so=00D1l0000000j3S" index="1"/>
    </md:SPSSODescriptor>
 </md:EntityDescriptor>
+
 
 
