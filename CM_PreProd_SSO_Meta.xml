@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://adidascm--preprod.my.salesforce.com" validUntil="2029-11-07T12:53:22.904Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://adidascm--preprod.my.salesforce.com" validUntil="2029-12-10T10:12:46.207Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:KeyDescriptor use="signing">
          <ds:KeyInfo>
@@ -44,10 +44,10 @@ wc4akQ==</ds:X509Certificate>
       </md:KeyDescriptor>
       <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adidascm--preprod.my.salesforce.com/services/auth/sp/saml2/logout"/>
       <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://adidascm--preprod.my.salesforce.com/services/auth/sp/saml2/logout"/>
-      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://preprod-cpreporting.cs129.force.com/CPReporting/services/auth/sp/saml2/logout"/>
-      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://preprod-cpreporting.cs129.force.com/CPReporting/services/auth/sp/saml2/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://preprod-cpreporting.cs128.force.com/CPReporting/services/auth/sp/saml2/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://preprod-cpreporting.cs128.force.com/CPReporting/services/auth/sp/saml2/logout"/>
       <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adidascm--preprod.my.salesforce.com?so=00D3O0000008aVW" index="0" isDefault="true"/>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://preprod-cpreporting.cs129.force.com/CPReporting/login?so=00D3O0000008aVW" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adidascm--preprod.my.salesforce.com?so=00D3N0000000UNj" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://preprod-cpreporting.cs128.force.com/CPReporting/login?so=00D3N0000000UNj" index="1"/>
    </md:SPSSODescriptor>
 </md:EntityDescriptor>
